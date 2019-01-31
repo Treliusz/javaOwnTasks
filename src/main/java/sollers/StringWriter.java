@@ -18,7 +18,7 @@ public class StringWriter {
         int sum = a + b;
         int aCounter = 0;
 
-        if (a / b > 2) {
+        if ((a > 6 && a / b >= 3) || (a > 2 && b == 0) || (a > 4 && b == 1)) {
             System.out.println("Zbyt mała liczna b w stoskunku " +
                     "do liczby a, by utworzyć tablicę wg zadanego wzoru");
             System.exit(-1);
